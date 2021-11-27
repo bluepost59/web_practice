@@ -1,0 +1,13 @@
+.container{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* grid-template-rows:100px 100px; */
+    gap: 20px;
+}
+
+.item{
+    height: 100px;
+    background-color: aquamarine;
+    text-align: center;
+}
